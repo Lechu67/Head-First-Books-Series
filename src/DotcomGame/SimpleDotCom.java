@@ -2,8 +2,8 @@ package DotcomGame;
 
 public class SimpleDotCom {
 
-    int[] locations;
-    int hitCount = 0;
+    private int[] locations;
+    private int hitCount = 0;
 
     public String checkYourself(String userIn){
 
@@ -27,4 +27,7 @@ public class SimpleDotCom {
         this.locations=a;
     }
 
+    public int getHitCount() {
+        return hitCount;
+    }
 }
