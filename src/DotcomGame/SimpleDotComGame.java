@@ -1,6 +1,6 @@
 package DotcomGame;
 
-import java.util.Scanner;
+import java.util.ArrayList;
 
 public class SimpleDotComGame {
 
@@ -8,15 +8,19 @@ public class SimpleDotComGame {
 
         int numOfGuesses = 0;
         int randomNum = (int)Math.random() *5;
-        int [] locations = {randomNum,randomNum+1,randomNum+2};
+        ArrayList<String> locations = new ArrayList<String>();
+        for(int i = randomNum; i < randomNum+3;i++)
+            locations.add(i, String.valueOf(i));
 
-        SimpleDotCom simpleDotCom = new SimpleDotCom();
+        DotCom simpleDotCom = new DotCom();
         simpleDotCom.setLocationCells(locations);
-        Scanner scanner = new Scanner(System.in);
-        while (simpleDotCom.getHitCount()<3) {
-            System.out.println("Enter a number");
-            simpleDotCom.checkYourself(scanner.next());
+        boolean running= true;
+        while (running) {
+            if(simpleDotCom.checkYourself(new SimpleDotGameHelper().getUserInput("Enter a number")).equals("kill")){
+                running=false;
+            }
             numOfGuesses++;
+
         }
         System.out.println("You needed: "+numOfGuesses);
 

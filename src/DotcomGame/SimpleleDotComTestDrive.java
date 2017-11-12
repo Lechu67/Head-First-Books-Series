@@ -1,11 +1,15 @@
 package DotcomGame;
 
+import java.util.ArrayList;
+
 public class SimpleleDotComTestDrive {
 
 
         public static void main (String[] args) {
-            SimpleDotCom dot = new SimpleDotCom();
-            int[] locations = {2, 3, 4};
+            DotCom dot = new DotCom();
+            ArrayList<String> locations = new ArrayList<String>();
+            for(int i = 0; i <=3;i++)
+                locations.add(i, String.valueOf(i));
             dot.setLocationCells(locations);
             String userGuess = "2";
             String result = dot.checkYourself(userGuess);
