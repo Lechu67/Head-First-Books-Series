@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JavaHeadFirst.iml" filepath="$PROJECT_DIR$/JavaHeadFirst.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DesignPatternsHeadFirst/DesignPatternsHeadFirst.iml" filepath="$PROJECT_DIR$/DesignPatternsHeadFirst/DesignPatternsHeadFirst.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HeadDesignPatterns/HeadDesignPatterns.iml" filepath="$PROJECT_DIR$/HeadDesignPatterns/HeadDesignPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HeadFirst.iml" filepath="$PROJECT_DIR$/HeadFirst.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaHeadFirst/JavaHeadFirst.iml" filepath="$PROJECT_DIR$/JavaHeadFirst/JavaHeadFirst.iml" />
     </modules>
   </component>
 </project>
