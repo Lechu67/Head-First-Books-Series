@@ -1,10 +1,10 @@
-package IntroToDesignPatterns.DuckStory;
+package IntroToDesignPatterns.Strategy;
 
-import IntroToDesignPatterns.DuckStory.Ducks.Duck;
-import IntroToDesignPatterns.DuckStory.Ducks.RocketDuck;
-import IntroToDesignPatterns.DuckStory.Ducks.RubberDuck;
-import IntroToDesignPatterns.DuckStory.Ducks.WildDuck;
-import IntroToDesignPatterns.DuckStory.Flying.RocketFly;
+import IntroToDesignPatterns.Strategy.Ducks.Duck;
+import IntroToDesignPatterns.Strategy.Ducks.RocketDuck;
+import IntroToDesignPatterns.Strategy.Ducks.RubberDuck;
+import IntroToDesignPatterns.Strategy.Ducks.WildDuck;
+import IntroToDesignPatterns.Strategy.Flying.RocketFly;
 
 public class DuckApp {
 

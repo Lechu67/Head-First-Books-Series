@@ -1,4 +1,4 @@
-package IntroToDesignPatterns.DuckStory.Flying;
+package IntroToDesignPatterns.Strategy.Flying;
 
 public interface Flying {
 

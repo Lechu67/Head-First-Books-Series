@@ -1,4 +1,4 @@
-package IntroToDesignPatterns.DuckStory.Quacking;
+package IntroToDesignPatterns.Strategy.Quacking;
 
 public class Shriek implements Quacking {
     @Override

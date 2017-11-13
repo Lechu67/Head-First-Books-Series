@@ -1,7 +1,7 @@
-package IntroToDesignPatterns.DuckStory.Ducks;
+package IntroToDesignPatterns.Strategy.Ducks;
 
-import IntroToDesignPatterns.DuckStory.Flying.Fly;
-import IntroToDesignPatterns.DuckStory.Quacking.Quack;
+import IntroToDesignPatterns.Strategy.Flying.Fly;
+import IntroToDesignPatterns.Strategy.Quacking.Quack;
 
 public class WildDuck extends Duck {
 

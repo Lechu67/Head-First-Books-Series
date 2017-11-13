@@ -1,7 +1,7 @@
-package IntroToDesignPatterns.DuckStory.Ducks;
+package IntroToDesignPatterns.Strategy.Ducks;
 
-import IntroToDesignPatterns.DuckStory.Flying.Flying;
-import IntroToDesignPatterns.DuckStory.Quacking.Quacking;
+import IntroToDesignPatterns.Strategy.Flying.Flying;
+import IntroToDesignPatterns.Strategy.Quacking.Quacking;
 
 public abstract class Duck {
 

@@ -1,7 +1,7 @@
-package IntroToDesignPatterns.DuckStory.Ducks;
+package IntroToDesignPatterns.Strategy.Ducks;
 
-import IntroToDesignPatterns.DuckStory.Flying.DoNotFly;
-import IntroToDesignPatterns.DuckStory.Quacking.Quack;
+import IntroToDesignPatterns.Strategy.Flying.DoNotFly;
+import IntroToDesignPatterns.Strategy.Quacking.Quack;
 
 public class RocketDuck extends Duck{
 
