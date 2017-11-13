@@ -18,4 +18,12 @@ public abstract class Duck {
         System.out.println("All ducks can swim");
     }
     abstract void printSmth();
+
+    public void setQuacking(Quacking quacking) {
+        this.quacking = quacking;
+    }
+
+    public void setFlying(Flying flying) {
+        this.flying = flying;
+    }
 }

@@ -1,8 +1,10 @@
 package IntroToDesignPatterns.DuckStory;
 
 import IntroToDesignPatterns.DuckStory.Ducks.Duck;
+import IntroToDesignPatterns.DuckStory.Ducks.RocketDuck;
 import IntroToDesignPatterns.DuckStory.Ducks.RubberDuck;
 import IntroToDesignPatterns.DuckStory.Ducks.WildDuck;
+import IntroToDesignPatterns.DuckStory.Flying.RocketFly;
 
 public class DuckApp {
 
@@ -15,5 +17,9 @@ public class DuckApp {
         duck2.doQuack();
         duck2.doFly();
         duck2.swim();
+        Duck duck3 = new RocketDuck();
+        duck3.doFly();
+        duck3.setFlying(new RocketFly());
+        duck3.doFly();
     }
 }

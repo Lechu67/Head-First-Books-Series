@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a46564f1-deab-4905-82fd-ee851ff3e0b7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/DuckApp.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Ducks/Duck.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Ducks/RubberDuck.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Ducks/WildDuck.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Flying/DoNotFly.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Flying/Fly.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Flying/Flying.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Quacking/Quack.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Quacking/Quacking.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Quacking/Shriek.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Ducks/RocketDuck.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Flying/RocketFly.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/DuckApp.java" afterPath="$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/DuckApp.java" />
+      <change beforePath="$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Ducks/Duck.java" afterPath="$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Ducks/Duck.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsHeadFirst/IntroToDesignPatterns/DuckStory/DuckApp.class" afterPath="$PROJECT_DIR$/out/production/DesignPatternsHeadFirst/IntroToDesignPatterns/DuckStory/DuckApp.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatternsHeadFirst/IntroToDesignPatterns/DuckStory/Ducks/Duck.class" afterPath="$PROJECT_DIR$/out/production/DesignPatternsHeadFirst/IntroToDesignPatterns/DuckStory/Ducks/Duck.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,29 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Quacking.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Quacking/Quacking.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Quack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Quacking/Quack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#130#131#0" expanded="true" />
-                <element signature="e#177#178#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Shriek.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Quacking/Shriek.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,8 +72,8 @@
       <file leaf-file-name="Duck.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Ducks/Duck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="136">
+              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#279#280#0" expanded="true" />
@@ -109,6 +82,37 @@
                 <element signature="e#364#365#0" expanded="true" />
                 <element signature="e#388#389#0" expanded="true" />
                 <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RocketDuck.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Ducks/RocketDuck.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RocketFly.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Flying/RocketFly.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+              <folding>
+                <element signature="e#128#129#0" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,8 +121,8 @@
       <file leaf-file-name="DuckApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/DuckApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="336">
+              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -190,9 +194,11 @@
         <option value="$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Flying/Flying.java" />
         <option value="$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Flying/Fly.java" />
         <option value="$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Flying/DoNotFly.java" />
-        <option value="$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Ducks/Duck.java" />
         <option value="$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Ducks/RubberDuck.java" />
         <option value="$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Ducks/WildDuck.java" />
+        <option value="$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Ducks/Duck.java" />
+        <option value="$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Ducks/RocketDuck.java" />
+        <option value="$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Flying/RocketFly.java" />
         <option value="$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/DuckApp.java" />
       </list>
     </option>
@@ -503,12 +509,12 @@
       <workItem from="1510313616778" duration="4387000" />
       <workItem from="1510515976557" duration="5782000" />
       <workItem from="1510564698096" duration="2040000" />
-      <workItem from="1510568893189" duration="3670000" />
+      <workItem from="1510568893189" duration="4196000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20248000" />
+    <option name="totallyTimeSpent" value="20774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -602,7 +608,7 @@
         <state relative-caret-position="442">
           <caret line="29" column="55" lean-forward="false" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -612,8 +618,8 @@
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="e#2238#2239#0" expanded="true" />
-            <element signature="e#2268#2269#0" expanded="true" />
+            <element signature="e#2238#2239#0" expanded="false" />
+            <element signature="e#2268#2269#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -664,7 +670,7 @@
         <state relative-caret-position="442">
           <caret line="29" column="55" lean-forward="false" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -674,8 +680,8 @@
         <state relative-caret-position="629">
           <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
           <folding>
-            <element signature="e#2238#2239#0" expanded="true" />
-            <element signature="e#2268#2269#0" expanded="true" />
+            <element signature="e#2238#2239#0" expanded="false" />
+            <element signature="e#2268#2269#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -701,7 +707,7 @@
         <state relative-caret-position="306">
           <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -737,7 +743,7 @@
         <state relative-caret-position="442">
           <caret line="29" column="55" lean-forward="false" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -780,8 +786,8 @@
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="e#2238#2239#0" expanded="true" />
-            <element signature="e#2268#2269#0" expanded="true" />
+            <element signature="e#2238#2239#0" expanded="false" />
+            <element signature="e#2268#2269#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -870,10 +876,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Ducks/Duck.java">
+    <entry file="file://$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Flying/RocketFly.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Ducks/RocketDuck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/Ducks/Duck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#279#280#0" expanded="true" />
@@ -882,14 +911,18 @@
             <element signature="e#364#365#0" expanded="true" />
             <element signature="e#388#389#0" expanded="true" />
             <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DesignPatternsHeadFirst/src/IntroToDesignPatterns/DuckStory/DuckApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="336">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
